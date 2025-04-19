@@ -50,7 +50,7 @@ public class ShapeCalculator {
         //CIRCLE
         System.out.println("2D Circle");
         System.out.println(garis);
-        System.out.print(radius);
+        System.out.print(radius);//menampilkan format input radius lingkaran
         double rc = main.nextDouble();//input radius lingkaran
         CircularShape circle = new Circle(rc);//membuat objek Circle
         System.out.println(garis);
@@ -60,7 +60,7 @@ public class ShapeCalculator {
         //SQUARE
         System.out.println("2D Square");
         System.out.println(garis);
-        System.out.print(side);
+        System.out.print(side);//menampilkan format input sisi
         double s = main.nextDouble();//input sisi persegi
         Shape square = new Square(s);//membuat objek Square
         System.out.println(garis);
@@ -70,7 +70,7 @@ public class ShapeCalculator {
         //CUBE
         System.out.println("3D Weightable Cube");
         System.out.println(garis);
-        System.out.print(edge);
+        System.out.print(edge);//menampilkan format input rusuk
         double e = main.nextDouble();//input nilai rusuk kubus
         System.out.print(mass);
         double m = main.nextDouble();//input nilai massa kubus
@@ -82,7 +82,7 @@ public class ShapeCalculator {
         //SPHERE
         System.out.println("3D Weightable Sphere");
         System.out.println(garis);
-        System.out.print(radius);
+        System.out.print(radius);//menampilkan format input radius untuk bola
         double rs = main.nextDouble();//input jari-jari bola
         System.out.print(mass);
         double ms = main.nextDouble();//input massa bola
@@ -95,11 +95,11 @@ public class ShapeCalculator {
         System.out.println("Volume of Cube and Sphere");
         System.out.println("POLYMORPHISM: INTERFACE");
         System.out.println(garis);
-        System.out.print(edge);
+        System.out.print(edge);//menampilkan format input rusuk kubus
         double ej = main.nextDouble();//input rusuk kubus
-        System.out.print(radius);
+        System.out.print(radius);//menampilkan format input radius bola
         double rad = main.nextDouble();//input radius bola
-        System.out.print(mass);
+        System.out.print(mass);//menampilkan format input massa 
         double mes = main.nextDouble();//input massa untuk kubus dan bola
         System.out.println(garis);
         
